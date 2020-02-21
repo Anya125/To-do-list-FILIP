@@ -1,0 +1,88 @@
+.body-conatiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: auto;
+  margin-top: 10rem;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.input-btn-field {
+  background-color: #eee;
+  padding: 1.25rem;
+  border-radius: .7rem;
+  margin-bottom: 2rem;
+}
+
+.blue-btn {
+  background-color: #87ceeb;
+  color: #fff;
+  padding: 0 0.7rem;
+  height: 34px;
+  border-radius: .4rem;
+  border: solid 1px #d2d2d2;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.input-field {
+  border-radius: .3rem;
+  outline: none;
+  width: 400px;
+  padding: .4rem;
+  border: solid 1px #d2d2d2;
+  margin-right: 0.5rem;
+}
+
+.list-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.list-section .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.list-section .p-padding {
+  padding: 0 0 0 1rem;
+}
+
+.completed p {
+  text-decoration: line-through;
+}
+/*# sourceMappingURL=index.css.map */
